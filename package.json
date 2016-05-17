@@ -1,0 +1,19 @@
+{
+  "name": "datediff",
+  "version": "1.0.0",
+  "description": "A date difference calculator",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deanx/datediff.git"
+  },
+  "author": "Alex Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deanx/datediff/issues"
+  },
+  "homepage": "https://github.com/deanx/datediff#readme"
+}
