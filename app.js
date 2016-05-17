@@ -123,7 +123,6 @@ const calculateDateFromSameYearAndMonth = (dateOne, dateTwo) => {
 const calculate = (dateOne, dateTwo) => {
   if(!dateOne || !dateTwo) {
     return 'Please insert two dates';
-    
   }
   let totalDays = 0;
 
