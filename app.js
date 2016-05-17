@@ -137,4 +137,5 @@ const calculate = (dateOne, dateTwo) => {
   return totalDays -1;  //drop start and end dates
 }
 const totalDays = calculate(dateOne, dateTwo);
-console.log(dateOne, '-',dateTwo,':', totalDays, totalDays > 1 ? 'days' : 'day');
+!isNaN(totalDays /1) ? console.log(dateOne, '-',dateTwo,':', totalDays, totalDays > 1 ? 'days' : 'day')
+  : console.log( totalDays);
