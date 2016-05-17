@@ -53,6 +53,9 @@ const calculateBiggerDate = (dateOne, dateTwo) => {
     };
 };
 
+
+
+
 const calculateDateFromDifferentMonths = (dateOne, dateTwo) => {
   let totalDays = 0;
   const orderedDates = calculateBiggerDate(dateOne, dateTwo);
@@ -118,6 +121,10 @@ const calculateDateFromSameYearAndMonth = (dateOne, dateTwo) => {
 
 
 const calculate = (dateOne, dateTwo) => {
+  if(!dateOne || !dateTwo) {
+    return 'Please insert two dates';
+    
+  }
   let totalDays = 0;
 
   if(isTheSameYearAndMonth(dateOne, dateTwo)) {
